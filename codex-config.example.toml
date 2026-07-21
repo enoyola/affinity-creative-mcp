@@ -1,0 +1,9 @@
+# Copy this block into ~/.codex/config.toml.
+# Replace the two placeholders below with paths from your own Mac.
+[mcp_servers.affinity-creative]
+command = "/absolute/path/from/command-v-node"
+args = ["/absolute/path/to/affinity-creative-mcp/dist/index.js"]
+startup_timeout_sec = 30
+
+[mcp_servers.affinity-creative.env]
+AFFINITY_MCP_ALLOWED_ROOTS = "/Users/YOUR_USERNAME/Documents:/Users/YOUR_USERNAME/Desktop"

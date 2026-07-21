@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+.DS_Store
+.env
+.env.*
+!.env.example
+.npmrc
+.idea/
+.vscode/
+*.tgz
+*.tsbuildinfo
+*.af~lock~
+*.log
